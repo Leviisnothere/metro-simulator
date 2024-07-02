@@ -1,0 +1,29 @@
+{
+  "lines": {
+    "F": [ "2 AV", "Delancey St", "East Broadway", "York St", "Jay MetroTech",
+             "Bergen St", "Carroll St", "Smith-9 St", "4 AV-9 St" ],
+    "A": [ "Washington Sq", "Spring St", "Canal St", "Fulton St",
+      "High St", "Jay MetroTech", "Hoyt Sts",  "Lafayette Av" ],
+    "N": [ "36 St", "25 St", "Prospect Av", "4 AV-9 St",
+      "Union St", "Atlantic Av", "Dekalb Av", "Jay MetroTech"]
+  },
+  "positions": {
+    "F": [[150,150],[200,200],[200,250],[350,300],[350,350],
+    [350,400],[350,450],[400,500],[650,500]],
+    "A": [[50,50],[50,100],[50,250], [50,350],
+    [150,350],[350,350],[450,350],[730,350]],
+    "N": [[200,550],[350,550],[650,550],[650,500],
+    [650,400],[650,200],[450,150],[350,350]]
+  },
+  "trips": {
+    "Jerry": [ "Jay MetroTech", "Carroll St" ],
+    "Tom": [ "4 AV-9 St","Jay MetroTech", "2 AV" ],
+      "Jack": [ "York St", "Jay MetroTech", "Canal St"]
+  },
+  "metroCard" : {
+    "Jerry": "11223344",
+    "Tom": "44332211",
+    "Jack": "76543210"
+  }
+
+}
